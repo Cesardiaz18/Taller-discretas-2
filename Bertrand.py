@@ -1,4 +1,3 @@
-
 import math
 def Bertrand_postulate ( n ) :
   for i in range ( n , n*2 + 1): 
@@ -11,6 +10,5 @@ def Bertrand_postulate ( n ) :
     if ( prime == True ) : 
       return i
   return -1 ; 
-n = int ( input ( "Ingrese numero: " ) ) 
-print ( Bertrand_postulate( n ) )
-
+for i in range ( 2 , 1001 ):
+  print ( Bertrand_postulate( i  ) )
